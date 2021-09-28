@@ -1,51 +1,89 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-  }
-  
-  li {
-    display: block;
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  
-  
-  .google-image {
-    position: absolute;
-    margin: 10em 32.5em;
-  }
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;  
+}
   
 
+.nav-links {
+  display: flex;
+  flex: 0 0 auto;
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#sign_in {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+#gmail > a, #images > a {
+  color: black;
+  text-decoration: none;
+}
+
+#sign_in > a {
+  color: white;
+  text-decoration: none;
+}
   
 
-/*   
-  #form-search {
-    border-radius: 50px;
-    position: absolute;
-    top: 260px;
-    left: 375px;
-    width: 580px;
-    height: 30px;
-    border: 1px solid #cdcdcd;
-  } */
-  
+.footer-left {
+  display: inline-block;
+  list-style: none;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+footer {
+  background-color: lightgray;
+  display: inline-flex;
+}
 
+.footer-right {
+  display: inline-block;
+  list-style: none;
+}
   
-  /* #google_search {
+.footer-left > li > a, .footer-right > li > a {
+  text-decoration: none;
+}
+
+.google-image {
+  position: absolute;
+  margin: 9em 50em;
+}
+  
+#form-search {
+  border-radius: 50px;
+  position: absolute;
+  top: 260px;
+  left: 650px;
+  width: 580px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+    
+  #google_search {
     position: absolute;
     top: 310px;
-    left: 550px;
+    left: 830px;
     border: 1px solid #dcdcdc;
     border-color: rgba(0, 0, 0, 0.1);
     color: #444!important;
@@ -59,7 +97,7 @@ ul {
   #im_feeling_lucky {
     position: absolute;
     top: 310px;
-    left: 680px;
+    left: 950px;
     border: 1px solid #dcdcdc;
     border-color: rgba(0, 0, 0, 0.1);
     color: #444!important;
@@ -68,5 +106,5 @@ ul {
     padding: 8px;
     background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
     border-radius: 2px;
-  } */
+  }
   
